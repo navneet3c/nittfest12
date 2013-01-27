@@ -1,0 +1,253 @@
+@import url('labrit.css');
+@import url('dungrg.css');
+html{
+	height: 100%;
+}
+body{
+	/*background: #000 url(bgwall.jpg) no-repeat top left;*/
+	background-color: #333;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#cover{
+	margin: 0px auto;
+	padding: 0px;
+	min-width: 1000px;
+	height: 100%;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background-color: rgba(40,40,40,0.5);
+	min-height: 625px;
+}
+#front{
+	height: 95%;
+	min-height: 640px;
+	width: 1000px;padding: 0px;
+	background: #000 url(bg.jpg) repeat-y center;
+	margin: 0px auto;
+	box-shadow: 0px 0px 50px #000;
+	-moz-box-shadow: 0px 0px 50px #000;
+	-webkit-box-shadow: 0px 0px 50px #000;
+	background-color: rgba(0,0,0,0.6);
+}
+#load-div{
+	padding: 20px;
+	width: 200px;
+	border: 2px solid #999;
+	box-shadow: 0px 0px 5px #999;
+	-moz-box-shadow: 0px 0px 5px #999;
+	-webkit-box-shadow: 0px 0px 5px #999;
+	background-color: #000;
+	border-radius: 5px;
+	text-align: center;
+}
+#load-div-wrapper{
+	padding: 0px;margin: 0px;
+	padding-top: 20%;
+	padding-left: 40%;
+}
+#content-div-wrapper{
+	padding: 0px;
+	margin: 0px auto;
+	display: none;
+	width: 800px;
+	height: 400px;
+}
+#content-div{
+	padding: 0px;
+}
+#elements{
+	text-align: center;	
+}
+#banner{
+	height: 403px;
+	border: 0px;
+	margin: 0px; padding: 0px
+}
+/*first letter*/
+#logo-wash{
+	position: absolute;
+	top: 100px;
+	left: 33%;	
+	z-index: -1;
+	height: 500px;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+#annotions{
+	margin-top: 30px;
+}
+#annotions span{
+	position: relative;
+	color: #a8784c;
+}
+#present-text{
+	left: -50px;
+	top: -350px;
+	font-family: dirt-font;
+	font-size: 35px;
+	text-shadow: 0px 0px 3px #fee;
+}
+#date-text{
+	left: 340px;
+	top: -120px;
+	font-family: dirt-font,Georgia, serif;
+	font-size: 26px;
+	text-shadow: 1px 1px 3px #000;
+}
+#contacts, #welcome{
+	position: relative;
+	display: block;
+	width: 130px;
+	height: 57px;
+	background: url(contacts-button.png) no-repeat center;
+}
+#contacts{
+	top: 10px;
+	color: #100908;
+}
+#welcome{
+	top: -50px;
+	float: right;
+	color: #692;
+}
+#welcome span{
+	color: #364;
+}
+#welcome a{
+	text-decoration: none;
+}
+#contacts span{
+	color: #100908;
+}
+#contacts span,#welcome span{
+	font-family: english-font,Georgia, serif;
+	font-size: 26px;
+}
+#contacts-button, #welcome-button{
+	position: relative;
+	text-align: center;
+	top: 6px;
+	display: block;
+	float: left;
+	left: 8px;
+	cursor: pointer;
+	padding: 12px 25px;
+}
+#contacts div{
+	display: none;
+	font-size: 12px;
+	position: absolute;
+	text-shadow: none;
+	padding: 65px 10px;
+	top: -370px;
+	left: -50px;
+	z-index: 200;
+	width: 900px;
+	background: url(contacts_bg.jpg) no-repeat center;
+	overflow: visible;
+	font-family: dirt-font,Georgia,serif; font-size: 17px;
+}
+#contacts table{
+	margin: 0px; margin-left: 50px;
+}
+#contacts div span{
+}
+#contacts h3{
+	margin: 5px; padding: 0px;
+	text-shadow: 0px 0px 3px #000;
+}
+#contacts span{
+	display: block;
+}
+#contacts td{
+	padding: 0px 12px;
+}
+#contacts th{
+	text-align: left;
+}
+.contacts-liner{
+	width: 100%;
+	margin: 0px; padding: 0px;
+	float: left; display: block;
+	border: 1px solid #401f15;
+}
+#contactsLayer{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: fixed; top: 0px;left: 0px;
+	z-index: 100;
+	background-color: rgba(0,0,0,0.8);
+}
+.fb-like{
+	position: relative;
+	left: 290px;
+	padding: 0px;
+	display: none;
+}
+#sponsorship{
+	position: relative;left: 70px;
+	padding: 20px;
+	padding-top: 25px;
+	display: block;
+	font-family: english-font,Georgia, serif;
+	font-size: 26px;
+	text-align: center;
+}
+#sponsors{
+	display: none;
+	margin: 0px auto;
+	width: 260px;
+	position: relative;	top: -25px; left: 40px; clear: none;
+}
+#sponsorSlideshow img{
+	width: 160px;
+	height: 80px;
+	border: 5px ridge #aaa;
+	padding: 3px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px #aaa;
+	-moz-box-shadow: 0px 0px 10px #aaa;
+	-webkit-box-shadow: 0px 0px 10px #aaa;
+}
+#undercon{
+	position: absolute;
+	width: 300px;
+	display: none;
+	padding: 20px 50px;
+	text-align:  center;
+	top: 40%;
+	left: 35%;
+	border: 2px solid #361907;
+	background-color: rgba(25,10,5,0.8);
+	z-index: 50;
+	color: #d7b683;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #000;
+}
+
+.liner{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	margin-left: -1px;
+	padding: 0px;
+	border: 1px solid #fff;
+	box-shadow: 0px 4px 15px #fff;
+	-moz-box-shadow: 0px 4px 15px #fff;
+	-webkit-box-shadow: 0px 4px 15px #fff;
+}
+#footer{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 10px;
+	background: #111 url(footer_wash.png) repeat-x top left;
+	font-family: Arial, Ubuntu, sans-serif;
+}
